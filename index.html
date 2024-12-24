@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body>
+    <header>
+        <nav class="navbar fixed-top">
+          <div class="logo">BLINK BACK</div>
+          <div class="menu-icon" id="menu-icon">
+            <span>&#9776;</span>
+          </div>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Buy</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero" id="hero">
+            <div class="hero-item hero-image-container">
+               <img src="./assets/blink-back.png" alt="Blink Back Product Image" class="hero__image"> 
+            </div>
+            <div class="hero-item hero__text">
+                <h1 class="hero__heading">BLINK BACK</h1>
+                <p class="hero__subheading">Relive the moment or skip the boring parts of life!</p>             
+            </div>
+            <div class="hero-item hero-link-container">
+                <a href="#pricing-options" class="hero__link">Get Yours Now!</a>             
+            </div>
+        </div>
+        <div class="second-row">
+            <div class="features">
+                <h2 class="features__heading">Features</h2>
+                <ul class="features-list pa-0 ma-0">
+                    <li class="feature pt-0">
+                        <span class="material-symbols-outlined list__item__icon">hourglass_empty</span>
+                        <p><span class="list__item__title">5-Minute Increments:</span> Only works in 5-minute increments (safety first!)</p></li>
+                    <li class="feature">
+                        <span class="material-symbols-outlined list__item__icon">keyboard_double_arrow_left</span>
+                        <p><span class="list__item__title">Regret Undoer Mode:</span> Includes a 'regret undoer' mode for fixing your mistakes!</p>
+                    </li>
+                    <li class="feature pb-0">
+                        <span class="material-symbols-outlined list__item__icon">emergency_home</span>
+                        <p><span class="list__item__title">Déjà Vu Warning:</span> Only works in 5-minute increments (safety first!)</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="steps">
+                <h2 class="steps__heading">HOW IT WORKS</h2>
+                <ul class="steps-list pa-0 ma0">
+                    <li class="step pt-0"><span>Step 1: </span>Turn on the TimeSnap</li>
+                    <li class="step"><span>Step 2: </span>Select your desired time (5-minute intervals)</li>
+                    <li class="step pb-0"><span>Step 3: </span>Experience the moment or skip to the next!</li>
+                </ul>
+                <a href="#pricing-options" class="steps__link">Try it now!</a>
+            </div>            
+        </div>
+        <div class="reviews">
+            <h1 class="reviews__heading ma-0">What Our Users Say</h1>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="review__text">"The regret undoer mode saved my relationship! I never thought a pocket-sized device could fix so much in 5 minutes. It's like magic in my hand."
+                        </p>
+                        <p class="review__user"><span>Alex P.</span> - San Francisco, USA</p>
+
+                    </div>
+                    <div class="carousel-item">
+                        <p class="review__text">"I used it to skip the boring parts of my morning meetings. Best investment ever! Just wish it could do longer than 5 minutes, though."</p>
+                        <p class="review__user"><span>Priya M.</span> - Bangalore, India</p>
+
+                    </div>
+                    <div class="carousel-item">
+                        <p class="review__text">"It’s a total game-changer. I relive my favorite parts of the weekend without the Monday blues creeping in. The déjà vu is real, but worth it!"</p>
+                        <p class="review__user"><span>Tom H.</span> - Manchester, UK</p>
+
+                    </div>
+                    <div class="carousel-item">
+                        <p class="review__text">"At first, I thought it was a gimmick, but after using it to redo a failed presentation, I’m a believer. This little device works wonders!"</p>
+                        <p class="review__user"><span>Mei T.</span> - Tokyo, Japan</p>
+
+                    </div>
+                    <div class="carousel-item">
+                        <p class="review__text">"I used it during a family dinner to skip my uncle's 20-minute speech. Life is too short for long stories!"</p>
+                        <p class="review__user"><span>Sofia L.</span> - Buenos Aires, Argentina</p>
+
+                    </div>
+                    <div class="carousel-item">
+                        <p class="review__text">"Déjà vu alert is no joke! But honestly, the ability to go back and catch what I missed on TV is amazing. Never skipping a plot twist again!"</p>
+                        <p class="review__user"><span>Liam R.</span> - Sydney, Australia</p>
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
+        </div>
+        <div class="pricing-options" id="pricing-options">
+            <h2 class="pricing__title">Get Yours Now</h2>
+            <div class="plans-card">
+                <div class="plan-card">
+                    <h3 class="plan__title">Standard</h3>
+                    <p class="plan__price">&dollar;199.99</p>                       
+                    <ul class="plan__features pl-0">
+                        <li class="plan__feature">5-minute increments</li>
+                        <li class="plan__feature">Regret Undoer Mode</li>
+                        <li class="plan__feature bb-0">Compact, pocket-sized design
+                        </li>
+                    </ul>
+                    <a href="" class="price__link">Buy Now</a>
+                </div>
+
+                <div class="plan-card">
+                    <h3 class="plan__title">Deluxe</h3>
+                    <p class="plan__price">&dollar;249.99</p>                    
+                    <ul class="plan__features">
+                        <li class="plan__feature">Everything in Standard</li>
+                        <li class="plan__feature">Customizable colors and designs</li>
+                        <li class="plan__feature bb-0">Bonus: Protective carrying case</li>
+                    </ul>
+                    <a href="" class="price__link">Buy Now</a>
+                </div>
+
+                <div class="plan-card br-0">
+                        <h3 class="plan__title">Bundle</h3>
+                        <p class="plan__price">&dollar;399.99</p>                       
+                    <ul class="plan__features">
+                        <li class="plan__feature">Two Deluxe Blink Back devices</li>
+                        <li class="plan__feature">Family Pack: Share the moments with loved ones!</li>
+                        <li class="plan__feature bb-0">Extended warranty (2 years)</li>
+                    </ul>
+                    <a href="" class="price__link">Buy Now</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="faq">
+            <h2 class="faq__heading">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faqs accordion accordion-flush ml-0" id="faqs-accordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            How does <span>BLINK BACK</span> work?
+                        </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faqs-accordion">
+                        <div class="accordion-body">
+                            <p><span class="ml-0">BLINK BACK</span> allows you to jump forward or backward in time by exactly 5-minute increments. Just set the time, press the button, and experience the moment again or skip it entirely.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Why does it only work in 5-minute increments?
+                        </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqs-accordion">
+                        <div class="accordion-body">
+                            <p>For safety reasons, the 5-minute limit ensures minimal disruption to your timeline while still giving you the flexibility to relive or skip moments.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Is <span>BLINK BACK</span>really pocket-sized?
+                        </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqs-accordion">
+                        <div class="accordion-body">
+                            <p>Yes! <span>BLINK BACK</span>is compact and fits easily in your pocket or small bag, so you can take it anywhere.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="faqs accordion accordion-flush" id="faqs-accordion-2">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            What’s the battery life of <span class="mr-0">BLINK BACK</span>?
+                        </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqs-accordion-2">
+                        <div class="accordion-body">
+                            <p>A full charge provides up to 20 jumps. The device charges quickly via USB-C.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Is <span>BLINK BACK</span> safe to use?
+                        </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqs-accordion-2">
+                        <div class="accordion-body">
+                            <p>Absolutely! <span>BLINK BACK</span> is designed with strict safety protocols to prevent significant timeline disruptions.</p> 
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Can I return or exchange <span class="mr-0">BLINK BACK</span>?
+                        </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#faqs-accordion-2">
+                        <div class="accordion-body">
+                            <p>Yes, we offer a 30-day money-back guarantee and a 1-year warranty on all devices.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>                              
+            </div>
+
+
+        </div>
+        <footer>
+            <h2 class="footer__heading">Blink Back</h2>
+            <div class="footer__grid">
+                <div class="footer__links__card">
+                    <h3 class="footer__links__title">About</h3>
+                    <ul>
+                        <li class="footer__link">Mission</li>
+                        <li class="footer__link">Team</li>
+                        <li class="footer__link">Newsletter</li>
+                    </ul>
+                </div>
+                <div class="footer__links__card">
+                    <h3 class="footer__links__title">Support</h3>
+                    <ul>
+                        <li class="footer__link">Contact Us</li>
+                        <li class="footer__link">Refund Policy</li>
+                        <li class="footer__link">FAQ's</li>
+                    </ul>
+                </div>
+                <div class="footer__links__card">
+                    <h3 class="footer__links__title">Social</h3>
+                    <ul>
+                        <li class="footer__link">Facebook</li>
+                        <li class="footer__link">Instagram</li>
+                        <li class="footer__link">Blue Sky</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <a href="#" class="tos-link">Terms of Service</a>
+                <a href="#hero" class="btt-link">Back to top</a>
+                <p class="c-text">Copyright &#169 Blink Back</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="./index.js"></script>
+</body>
+</html>
